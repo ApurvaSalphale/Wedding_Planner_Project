@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <div>
       {/* Top bar with search + profile */}
-      <div style={{ display: "flex", justifyContent: "space-between", padding: "10px", background: "#f1f1f1" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", padding: "10px", background: "#7e0eb1ff" }}>
         <SearchCity />
         <ProfileBar />
       </div>
