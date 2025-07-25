@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav
       style={{
-        background: "#f8f8f8",
+        background: "#ca76fbff",
         color: "black",
         padding: "10px 20px",
         display: "flex",
@@ -15,19 +15,21 @@ const Navbar = () => {
     >
       
       <div>
-        <Link to="/venue" style={{ color: "black", marginRight: "20px" }}>Venue</Link>
-        <Link to="/vendors" style={{ color: "black", marginRight: "20px" }}>Vendors</Link>
-        <Link to="/photo" style={{ color: "black", marginRight: "20px" }}>Photo</Link>
-        <Link to="/realWedding" style={{ color: "black", marginRight: "20px" }}>Real Wedding</Link>
-        <Link to="/e_invites" style={{ color: "black", marginRight: "20px" }}>E-Invites</Link>
+        <Link to="/venue" style={{ color: "white", marginRight: "20px" }}>Venue</Link>
+        <Link to="/vendors" style={{ color: "white", marginRight: "20px" }}>Vendors</Link>
+        <Link to="/photo" style={{ color: "white", marginRight: "20px" }}>Photo</Link>
+        <Link to="/realWedding" style={{ color: "white", marginRight: "20px" }}>Real Wedding</Link>
+        <Link to="/e_invites" style={{ color: "white", marginRight: "20px" }}>E-Invites</Link>
       </div>
 
      
       <div>
-        <Link to="/register" style={{ color: "black", marginRight: "20px" }}>Register</Link>
-        <Link to="/login" style={{ color: "black" }}>Login</Link>
+        <Link to="/register" style={{ color: "white", marginRight: "20px" }}>Register</Link>
+        <Link to="/login" style={{ color: "white" }}>Login</Link>
       </div>
     </nav>
+
+    
   );
 };
 
